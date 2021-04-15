@@ -6,4 +6,4 @@ function countSheeps(arrayOfSheep) {
 const sum = sheep.reduce((total, amount) => total + amount, 0);
 return sum
 
-  }
+  } 

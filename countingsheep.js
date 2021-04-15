@@ -3,7 +3,7 @@ function countSheeps(arrayOfSheep) {
  const sheep = arrayOfSheep.filter(i => {
   return i ===true
 })
-const sum = sheep.reduce((total, amount) => total + amount);
+const sum = sheep.reduce((total, amount) => total + amount, 0);
 return sum
 
   }
